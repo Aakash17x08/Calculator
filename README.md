@@ -40,8 +40,8 @@ A beautifully designed, responsive calculator built using HTML, CSS, and JavaScr
 
 ## Links
 
-- [Visit the Calculator](https://example.com/responsive-calculator)
-- [GitHub Repository](https://github.com/your-username/responsive-calculator)
+- [Visit the Calculator]( https://aakash17x08.github.io/Calculator/)
+
 
 ## Follow Me
 
