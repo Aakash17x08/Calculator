@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="start">
+        <h1 class="h1"><a class="a" href="#" style="text-decoration: none; color: inherit;">Calculator</a></h1>
+        <div class="follow">
+            <h3 style="color: white; margin: 0;">Follow us on:</h3>
+            <a href="https://github.com/Aakash17x08" target="_blank">
+                <div class="icon" style="background-image: url('https://img.icons8.com/?size=100&id=12598&format=png&color=000000');"></div>
+            </a>
+            <a href="https://www.linkedin.com/in/aakash-maurya-b18152326/" target="_blank">
+                <div class="icon" style="background-image: url('https://img.icons8.com/?size=100&id=447&format=png&color=000000');"></div>
+            </a>
+        </div>
+    </div>
+    <div class="container">
+        <input type="text" id="display" readonly>
+        <div class="btn">
+            <button class="c" onclick="calc = ''; document.querySelector('#display').value = calc;">C</button>
+            <button class="c" onclick="calc += '1'; document.querySelector('#display').value = calc;">1</button>
+            <button class="c" onclick="calc += '2'; document.querySelector('#display').value = calc;">2</button>
+            <button class="c" onclick="calc += '3'; document.querySelector('#display').value = calc;">3</button>
+            <button class="c" onclick="calc += '+'; document.querySelector('#display').value = calc;">+</button>
+            <button class="c" onclick="calc += '4'; document.querySelector('#display').value = calc;">4</button>
+            <button class="c" onclick="calc += '5'; document.querySelector('#display').value = calc;">5</button>
+            <button class="c" onclick="calc += '6'; document.querySelector('#display').value = calc;">6</button>
+            <button class="c" onclick="calc += '*'; document.querySelector('#display').value = calc;">*</button>
+            <button class="c" onclick="calc += '7'; document.querySelector('#display').value = calc;">7</button>
+            <button class="c" onclick="calc += '8'; document.querySelector('#display').value = calc;">8</button>
+            <button class="c" onclick="calc += '9'; document.querySelector('#display').value = calc;">9</button>
+            <button class="c" onclick="calc += '/'; document.querySelector('#display').value = calc;">/</button>
+            <button class="c" onclick="calc += '0'; document.querySelector('#display').value = calc;">0</button>
+            <button class="c" onclick="calc += '.'; document.querySelector('#display').value = calc;">.</button>
+            <button class="c cent" onclick="try { calc = eval(calc); document.querySelector('#display').value = calc; } catch { calc = ''; document.querySelector('#display').value = 'Error'; }">=</button>
+        </div>
+    </div>
+   <script src="./script.js"></script>
+</body>
+
+</html>
